@@ -29,9 +29,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-## 📖 TDD was created to create a project based on the TDD concept.
-
-TDD was created
+## 📖 This was created to create a project based on the TDD concept.
 
 ## 🛠 Built With <a name="built-with"></a>
 
