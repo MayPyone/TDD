@@ -22,4 +22,26 @@ describe Solver do
       expect(solver.reverse("hello")).to eq "olleh"
     end
   end
+
+  describe "#fizzbuzz" do
+    context "If a given number is divisible by 3" do
+      it "should return 'fizz'" do
+      end
+    end
+
+    context "If a given number is divisible by 5" do
+      it "should return 'buzz'" do
+      end
+    end
+
+    context "If a given number is divisible by both 3 and 5" do
+      it "should return 'fizzbuzz'" do
+      end
+    end
+
+    context "If a given number is not divisible by either 3 or 5" do
+      it "should return the number itself as a string" do
+      end
+    end
+  end
 end
