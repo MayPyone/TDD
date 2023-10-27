@@ -26,21 +26,25 @@ describe Solver do
   describe "#fizzbuzz" do
     context "If a given number is divisible by 3" do
       it "should return 'fizz'" do
+        expect(solver.fizzbuzz(9)).to eq "fizz"
       end
     end
 
     context "If a given number is divisible by 5" do
       it "should return 'buzz'" do
+        expect(solver.fizzbuzz(10)).to eq "buzz"
       end
     end
 
     context "If a given number is divisible by both 3 and 5" do
       it "should return 'fizzbuzz'" do
+        expect(solver.fizzbuzz(15)).to eq "fizzbuzz"
       end
     end
 
     context "If a given number is not divisible by either 3 or 5" do
       it "should return the number itself as a string" do
+        expect(solver.fizzbuzz(16)).to eq "16"
       end
     end
   end
