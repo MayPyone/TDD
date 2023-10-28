@@ -15,6 +15,10 @@ describe Solver do
     it 'should return the factorial of a number >= 0' do
       expect(solver.factorial(4)).to eq 24
     end
+
+    it 'should return the factorial of a number 0' do
+      expect(solver.factorial(0)).to eq 1
+    end
   end
 
   describe '#reverse' do
